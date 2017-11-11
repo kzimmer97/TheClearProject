@@ -44,7 +44,7 @@ $(document).ready(function() {
         maxZoom: 14,
         panControl: true,
         styles: styles,
-        zoom: 13,
+        zoom: 7,
         zoomControl: true
     };
 
