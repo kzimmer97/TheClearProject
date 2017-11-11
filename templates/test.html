@@ -11,7 +11,7 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
 
         <!-- App's own CSS -->
-        <link href="/static/styles.css" rel="stylesheet"/>
+        <link href="static/css/mapstyles.css" rel="stylesheet"/>
 
         <!-- https://developers.google.com/maps/documentation/javascript/ -->
         <script src="https://maps.googleapis.com/maps/api/js?key={{ key | urlencode }}&v=3.exp"></script>
@@ -22,14 +22,11 @@
         <!-- http://getbootstrap.com/ -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-        <!-- https://github.com/corejavascript/typeahead.js/blob/master/doc/jquery_typeahead.md -->
-        <script src="https://cdn.rawgit.com/corejavascript/typeahead.js/master/dist/typeahead.jquery.js"></script>
-
         <!-- http://handlebarsjs.com/ -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
 
         <!-- app's own JavaScript -->
-        <script src="/static/scripts.js"></script>
+        <script src="/static/js/mapscripts.js"></script>
 
         <title>Mashup</title>
 
@@ -43,14 +40,14 @@
             <div id="map-canvas"></div>
 
             <!-- http://getbootstrap.com/css/#forms -->
-            <form id="form">
+            <!-- <form id="form">
                 <div class="form-group">
                     <label class="sr-only" for="q">City, State, Postal Code</label>
                     <input class="form-control" id="q" placeholder="City, State, Postal Code" type="text"/>
                 </div>
-            </form>
+            </form> -->
         </div>
-        <p>{{ key }}<p>
+
 
     </body>
 </html>

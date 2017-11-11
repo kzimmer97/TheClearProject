@@ -1,0 +1,29 @@
+/* Allow map to fill viewport */
+html, body, #map-canvas, .container-fluid
+{
+    /* Height of these elements */
+    height: 100%;
+
+    /* No margin around these elements */
+    margin: 0;
+
+    /* Disable scrollbars */
+    overflow: hidden;
+
+    /* No padding within these elements */
+    padding: 0;
+}
+
+/* Stylize info window */
+#info
+{
+    /* No margin around this element */
+    margin: 0;
+
+    /* Allow scrollbars as needed */
+    overflow: auto;
+}
+#info ul
+{
+    margin-bottom: 0;
+}
